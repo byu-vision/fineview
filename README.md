@@ -2,9 +2,9 @@
 
 
 <p float="left">
-  <img align="top" src="./imgs/Stack-1.gif" width="218">
-  <img src="./imgs/c2.png" width="450"/>
-  <img align="top" src="./imgs/pc.gif" width="300"/>
+  <img align="top" src="./imgs/Stack-1.gif" width="183">
+  <img src="./imgs/c2.png" width="380"/>
+  <img align="top" src="./imgs/pc.gif" width="250"/>
 </p>
 
 This is the official repository for our WACV 2025 paper [[URL](https://openaccess.thecvf.com/content/WACV2025/html/Onda_The_FineView_DatasetA_3D_Scanned_Multi-View_Object_Dataset_of_Fine-Grained_WACV_2025_paper.html)].
