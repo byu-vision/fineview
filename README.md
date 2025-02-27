@@ -10,6 +10,15 @@
 This is the official repository for our WACV 2025 paper [[URL](https://openaccess.thecvf.com/content/WACV2025/html/Onda_The_FineView_DatasetA_3D_Scanned_Multi-View_Object_Dataset_of_Fine-Grained_WACV_2025_paper.html)].
 
 ## Dataset
+<p float="left">
+  <img src="./imgs/img_system.jpg" width="200"/>
+  <img src="./imgs/concat_tile.jpg" width="290"/>
+  <img src="./imgs/posegraph.png" width="300"/>
+</p>
+
+| Images | Species | Camera pose | Camera view |
+| :---: | :----: | :----: | :----: |
+|  68,160 | 173 | 320 | Sphere |
 
 - crop_undistort (Original resolution multiview 2D RGB images. This is cropped and corrected for lens distortion)
 - crop_mask_undistort (Masked image of crop_undistort)
