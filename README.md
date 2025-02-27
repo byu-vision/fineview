@@ -18,9 +18,12 @@ This is the official repository for our WACV 2025 paper [[URL](https://openacces
 
 ## Download
 
+We've provided a [bash script](https://github.com/byu-vision/fineview/blob/main/download.sh) to download the data. The download process requires ~500 GB of disk space. Run the download script:
+
 ```
 bash download.sh
 ```
+If you want 1/8 resized version of our dataset, Here is a [bash script](https://github.com/byu-vision/fineview/blob/main/download_8.sh) to download the resized data. This download process requires ~10 GB of disk space.
 
 ```
 bash download_8.sh
