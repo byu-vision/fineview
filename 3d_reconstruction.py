@@ -7,8 +7,6 @@ import math
 import os
 import time
 import h5py
-import matplotlib.pyplot as plt
-import bundle_adjustment
 
 
 def DLT(coordinates, p_s):
