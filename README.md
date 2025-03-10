@@ -38,6 +38,17 @@ If you want 1/8 resized version of our dataset, Here is a [bash script](https://
 bash download_8.sh
 ```
 
+## 3D reconstruction
+
+We provide camera parameters (camera_parameters.h5) and correspondence point coordinates (correspondence_undistort/SPECIE_NAME/correspondence_coordinate.h5). Run following command for 3D reconstruction (3D point cloud):
+
+```
+python -m venv /path/to/new/virtual/environment
+source /path/to/new/virtual/environment/bin/activate
+pip install opencv-python numpy pillow h5py open3d
+python 3d_reconstruction.py --base_path /The folder path where you download dataset -id SPECIES_number (1-213)
+```
+
 ## Citation
 ```
 @InProceedings{Onda_2025_WACV,
