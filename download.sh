@@ -114,11 +114,16 @@ done
 zip -s0 crop_undistort_split.zip --out crop_undistort.zip
 unzip crop_undistort.zip
 
+curl -L https://byu.box.com/shared/static/9xiusu4mx0obhi26qbv2khnupg03f8zv.zip --output correspondence_undistort.zip
+curl -L https://byu.box.com/shared/static/opo6qvxel1dupjqmoo2nfxicmjkowyof.h5 --output camera_parameters.h5
+unzip correspondence_undistort.zip
+
 curl -L https://byu.box.com/shared/static/ypvwjkx6ksj3jp1hyq9hh4roq4yj47vf.zip --output crop_mask_undistort.zip
 unzip crop_mask_undistort.zip
 
 rm crop_undistort_split.*
 rm crop_undistort.zip
+rm correspondence_undistort.zip
 rm crop_mask_undistort.zip
 
 
